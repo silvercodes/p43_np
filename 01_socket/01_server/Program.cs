@@ -4,7 +4,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 
-const string serverIp = "127.0.0.1";
+const string serverIp = "192.168.2.150";
 const int port = 8080;
 
 using Socket socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
@@ -20,7 +20,7 @@ try
     Socket remoteSocket = socket.Accept(); // BLOCKING (ожидание установки соединения)
     Console.WriteLine("Connection opened...");
 
-    string message = ReadMessage(remoteSocket);
+    string message = ReadMessage(remoteSocket); // BLOCKING
 
     Console.WriteLine($"{DateTime.Now.ToShortTimeString()}: {message}");
 
