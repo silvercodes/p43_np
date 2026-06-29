@@ -3,4 +3,5 @@
   <Project Path="02_client/02_client.csproj" Id="7b3592f8-1a73-4c74-a166-e5e6717d42d2" />
   <Project Path="03_server_async/03_server_async.csproj" Id="8fd2a6cb-a0ee-43ec-affd-481805f45378" />
   <Project Path="04_server_multi_threads/04_server_multi_threads.csproj" Id="6c0c83b2-8083-4c4b-9934-f102406aca33" />
+  <Project Path="05_client_with_cycle/05_client_with_cycle.csproj" Id="6dbf34a7-dd2e-4919-be50-078394922e51" />
 </Solution>
